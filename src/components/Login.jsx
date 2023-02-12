@@ -11,8 +11,8 @@ const Login = () => {
           <Description>
             Subscribe to watch all content on Disney+ Hotstar
           </Description>
+          <CtaLogoTwo src="/images/cta-logo-two.png" alt="" />
         </CTA>
-
         <BgImage />
       </Content>
     </Container>
@@ -74,6 +74,15 @@ const CtaLogoOne = styled.img`
   max-width: 600px;
   min-height: 1px;
   display: block;
+  width: 100%;
+`;
+
+const CtaLogoTwo = styled.img`
+  margin-bottom: 15px;
+  max-width: 600px;
+  min-height: 1px;
+  display: inline-block;
+  vertical-align: bottom;
   width: 100%;
 `;
 
